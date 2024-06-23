@@ -10,6 +10,12 @@ void main() {
                   style: TextStyle(color: Colors.white))),
           backgroundColor: Colors.blueGrey[700],
         ),
+        backgroundColor: Colors.blueGrey[400],
+        body: const Center(
+          child: Image(
+            image: (AssetImage('images/cat.jpg')),
+          ),
+        ),
       ),
     ),
   );
